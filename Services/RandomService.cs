@@ -9,7 +9,8 @@
 		}
 		public int GetRandom()
 		{
-			return new Random(seed).Next(100);
+			//retirado o comando seed
+			return new Random().Next(100);
 		}
 
 	}

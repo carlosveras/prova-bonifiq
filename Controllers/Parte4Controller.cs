@@ -31,5 +31,6 @@ namespace ProvaPub.Controllers
 
 			return await svc.CanPurchase(customerId, purchaseValue);
 		}
-	}
+
+    }
 }
